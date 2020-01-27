@@ -1,12 +1,13 @@
-#tp1 devops
-###info VM
+# tp1 devops
+
+### info VM
 Nom utilisateur: yves 
 Mot de passe: yvon
 
-##Avec VMWARE
+## Avec VMWARE
 Alors j'ai effectué ce TP1 sur VMWare. J'ai choisi une image et ensuite il faut ensuite changer la mémoire ram à 1GB.
 
-###Installation de nodejs@12
+###  Installation de nodejs@12
 ```
 apt get update
 ```
@@ -20,7 +21,7 @@ ensuite
 sudo apt install openssh-server nodejs 
 ```
 
-##Virtualbox
+##  Virtualbox
 Nous avons rencontrer des problèmes avec VMware lorsque nous avons voulu provisonner notre VM avec Vagrant. Le provider est payant donc nous allons utiliser Virtualbox.
 ### Vagrant
 Intallation Vagrant 
